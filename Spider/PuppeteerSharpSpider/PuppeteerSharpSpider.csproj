@@ -1,0 +1,255 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".local-chromium\win64-706915\chrome-win\MEIPreload\manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.13.0" />
+    <PackageReference Include="PuppeteerSharp" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpiderModel\SpiderModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Chromium各版本\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".local-chromium\win64-706915\chrome-win\79.0.3945.0.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_100_percent.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_200_percent.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_child.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_elf.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_proxy.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\chrome_watcher.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\D3DCompiler_47.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\elevation_service.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\eventlog_provider.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\First Run">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\icudtl.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\interactive_ui_tests.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\libEGL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\libGLESv2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ar.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\bg.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\bn.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ca.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\cs.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\da.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\de.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\el.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\en-GB.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\en-US.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\es-419.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\es.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\et.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\fi.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\fil.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\fr.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\gu.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\he.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\hi.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\hr.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\hu.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\id.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\it.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ja.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\kn.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ko.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\lt.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\lv.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ml.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\mr.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ms.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\nb.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\nl.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\pl.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\pt-BR.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\pt-PT.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ro.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ru.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\sk.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\sl.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\sr.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\sv.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\ta.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\te.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\th.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\tr.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\uk.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\vi.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\zh-CN.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\locales\zh-TW.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\MEIPreload\preloaded_data.pb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\nacl_irt_x86_64.nexe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\natives_blob.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\notification_helper.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\resources.pak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\swiftshader\libEGL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\swiftshader\libGLESv2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include=".local-chromium\win64-706915\chrome-win\v8_context_snapshot.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

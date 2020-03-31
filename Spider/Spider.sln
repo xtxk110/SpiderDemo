@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetSpider4_0_8", "DotNetSpider4.0.8\DotNetSpider4_0_8.csproj", "{B679F6B2-7333-4531-BB0A-D8814184B516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiderModel", "SpiderModel\SpiderModel.csproj", "{F3629809-8CB2-498D-9281-3C217DE9F9D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsHttpClientSpider", "JsHttpClient\JsHttpClientSpider.csproj", "{20A54F1F-A83D-4497-A5A6-AB6555282F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppeteerSharpSpider", "PuppeteerSharpSpider\PuppeteerSharpSpider.csproj", "{E399B042-5570-4C64-BAF4-1AF6A5E685CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B679F6B2-7333-4531-BB0A-D8814184B516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B679F6B2-7333-4531-BB0A-D8814184B516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B679F6B2-7333-4531-BB0A-D8814184B516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B679F6B2-7333-4531-BB0A-D8814184B516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3629809-8CB2-498D-9281-3C217DE9F9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3629809-8CB2-498D-9281-3C217DE9F9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3629809-8CB2-498D-9281-3C217DE9F9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3629809-8CB2-498D-9281-3C217DE9F9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A54F1F-A83D-4497-A5A6-AB6555282F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A54F1F-A83D-4497-A5A6-AB6555282F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A54F1F-A83D-4497-A5A6-AB6555282F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A54F1F-A83D-4497-A5A6-AB6555282F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA093FDD-6AE3-4DF6-A8EC-D1BA4080686D}
+	EndGlobalSection
+EndGlobal

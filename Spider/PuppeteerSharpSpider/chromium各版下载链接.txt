@@ -1,0 +1,8 @@
+﻿https://npm.taobao.org/mirrors/chromium-browser-snapshots/
+
+说明：
+puppeteer 离线安装chromium
+参照链接 https://www.jianshu.com/p/26e7df6d5683
+上文内容需要注意的是：chromium安装包解压到puppeteer中的 .local-chromium/win64-{chromium版本号}/   ，
+而不是下划线命名的文件名  .local_chromium/win64_{chromium版本号}/
+chromium 可以去淘宝源下载： https://npm.taobao.org/mirrors/chromium-browser-snapshots。
