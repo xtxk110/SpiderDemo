@@ -1,0 +1,5 @@
+/Spider/.vs
+obj
+bin
+/Spider/PuppeteerSharpSpider/Chromium各版本
+/Spider/PuppeteerSharpSpider/.local-chromium

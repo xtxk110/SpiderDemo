@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiderModel", "SpiderModel\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsHttpClientSpider", "JsHttpClient\JsHttpClientSpider.csproj", "{20A54F1F-A83D-4497-A5A6-AB6555282F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuppeteerSharpSpider", "PuppeteerSharpSpider\PuppeteerSharpSpider.csproj", "{E399B042-5570-4C64-BAF4-1AF6A5E685CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuppeteerSharpSpider", "PuppeteerSharpSpider\PuppeteerSharpSpider.csproj", "{E399B042-5570-4C64-BAF4-1AF6A5E685CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleSharpSpider", "AngleSharpSpider\AngleSharpSpider.csproj", "{C4D3CF53-B33A-4CE3-B405-34CF4689CB84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E399B042-5570-4C64-BAF4-1AF6A5E685CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D3CF53-B33A-4CE3-B405-34CF4689CB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D3CF53-B33A-4CE3-B405-34CF4689CB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D3CF53-B33A-4CE3-B405-34CF4689CB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D3CF53-B33A-4CE3-B405-34CF4689CB84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
